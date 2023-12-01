@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pri{
+            background-color: black;
+            line-height: 30px;
+        }
+        img {
+            width: 400px;
+            border-radius: 10px;
+            float: left;
+            margin-right: 50px;
+        }
+        .id {
+            margin-left: 70px;
+            font-weight: bold;
+            font-size: 50px;
+            text-align: justify;
+            padding: 20px;
+            margin: 50px;
+            margin-top: 60px;
+        }
+        .def{
+            display: flex;
+            flex-direction: column;
+            color:aliceblue;
+        }
+        .about-heading{
+            text-align: center;
+            text-transform: uppercase;
+            line-height: 0;
+            justify-content: center;
+            margin-top: 100px;
+        }
+        .about-heading h1 {
+            font-size: 5.5rem;
+            opacity: .3;
+            font-weight: 500;
+            color:bisque;
+            margin: 0em;
+            
+        }
+        .about-heading h6{
+            font-size: 2rem;
+            font-weight:100;
+            color: bisque;
+            margin: 0em;
+        }
+        .intro{
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            padding: 10px;
+            font-size: 20px;
+            margin: 0;
+            margin-top: 0;
+            justify-content: space-between;
+        }
+        .nav-list{
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            display: inline-flex;
+            word-spacing: 70%;
+            margin-right: 280px;
+        }
+        .indigo {
+            display: inline-flex;
+            margin-right: 80px;
+        }
+    </style>
+</head>
+<body class="pri">
+    <div class="about-heading">
+        <h1>ABOUT</h1>
+        <h6>Myself</h6>
+    </div>
+    <section class="def">
+        <div class="pic">
+            <img src="pictures/girl.png">
+            <p class="id">Hi! This is Vishnupriya.</p>
+            <p class="intro">I am a highly motivated BTECH student, Passionate and dedicated Frontend Web Developer 
+                <br>with a strong foundation in HTML, CSS, and JavaScript.Skilled in crafting visually
+                appealing<br> and interative website through responsive design. Eager to leverage my technical skills and 
+                <br> creativity to contribute to innovaive web projects. A lifelong learner, always excited to 
+                <br> embrace new technologies and enhance my abilities in the ever-evolving world of web development.
+                <br>
+                <br>
+                <br>
+                <a href="#" class="cta">Checkout my Resume</a>
+            </p>
+            <br>
+            <address>Contact me here <a href="mailto:kathrojuvishnupriya@gmail.com">kathrojuvishnupriya@gmail.com</a></address>
+        
+    
+    <div class="media">
+        <ul class="nav-list">
+            <li>
+                <a class="indigo" href="https://www.linkedin.com/in/kathroju-vishnupriya-666573276/"><h3>linkdin</h3>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/217r1a1232"><h3>Github</h3>
+                </a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</section>
+</body>
+</html>
